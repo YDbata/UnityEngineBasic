@@ -1,2 +1,2 @@
-ABCD1234
+ABCD
 Hello Test
