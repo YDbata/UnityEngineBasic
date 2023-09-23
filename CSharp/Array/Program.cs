@@ -75,6 +75,7 @@ namespace Array
 
         static void DrawMap()
         {
+            Console.WriteLine("-----");
             for (int y = 0; y < map.GetLength(0); y++)
             {
                 for (int  x = 0;  x < map.GetLength(1);  x++)
@@ -90,15 +91,15 @@ namespace Array
 
                 }
                 Console.WriteLine();
-
             }
+            Console.WriteLine("-----");
         }
 
         static void MoveRight()
         {
             if(x >= map.GetLength(1) - 1 || map[y, x+1] == 1)
             {
-                Console.WriteLine("해당 방향으로 움직일 수 없습니다.");
+                Console.WriteLine("오른쪽 방향으로 움직일 수 없습니다.");
             }
             else
             {
@@ -113,7 +114,7 @@ namespace Array
         static void MoveUp() {
             if (y < 1 || map[y - 1, x] == 1)
             {
-                Console.WriteLine("해당 방향으로 움직일 수 없습니다.");
+                Console.WriteLine("위 방향으로 움직일 수 없습니다.");
             }
             else
             {
@@ -126,7 +127,7 @@ namespace Array
         static void MoveLeft() {
             if (x < 1 || map[y, x - 1] == 1)
             {
-                Console.WriteLine("해당 방향으로 움직일 수 없습니다.");
+                Console.WriteLine("왼쪽 방향으로 움직일 수 없습니다.");
             }
             else
             {
@@ -139,7 +140,7 @@ namespace Array
         static void MoveDown() {
             if (y >= map.GetLength(0) - 1 || map[y + 1, x] == 1)
             {
-                Console.WriteLine("해당 방향으로 움직일 수 없습니다.");
+                Console.WriteLine("아래 방향으로 움직일 수 없습니다.");
             }
             else
             {
