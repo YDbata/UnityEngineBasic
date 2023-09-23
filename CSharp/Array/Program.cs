@@ -150,5 +150,10 @@ namespace Array
                 DrawMap();
             }
         }
+
+        // 분기문
+        // break; 현재 구문을 탈출
+        // continue; 현재 구문흐름을 종료하고 재시작
+        // return; 현재 할당된 함수를 종료하고 메모리 해제
     }
 }
