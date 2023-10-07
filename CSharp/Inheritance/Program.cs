@@ -18,7 +18,7 @@
             wizard.Move();
             intermidiateWizard.Move(); // Wizard의 Move
 
-
+            // 가상함수 table 설명
             swordMan.SwordMasteryLevel = 1;
             swordMan.Smash();
             // sowrdMan1은 PlatyerbleCharacter로 생성했기 때문에 sowrdMan class의 변수는 읽을 수 없다.(함수 포함)
@@ -29,7 +29,7 @@
 
             // Boxing : object type 처리하는 방식
             // object type변수에 데이터를 대입하면 heap memory에 새로운 객체를 생성
-            // 데이터의 타입 참조테이블인덱스와 데이터를 씀.
+            // TypeInfo(데이터의 타입 참조테이블인덱스)와 데이터를 씀.
             object int1 = 3; 
             object str = "zㅣ존검사";
             object wizard2 = new Wizard();

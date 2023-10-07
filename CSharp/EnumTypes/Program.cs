@@ -4,7 +4,7 @@ namespace EnumTypes
 {
     internal class Program
     {
-        //enum 사용자 정의 자료형(열거형)
+        // enum 사용자 정의 자료형(열거형)
         // 상수값에 대한 이름 목록을 작성할 수 있다.
         // State type으로 enum을 선언
         // 기본적으로 uint 데이터와 같이 생김
