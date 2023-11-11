@@ -33,15 +33,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Run",
-                    "type": "Button",
-                    "id": "fbdb428a-fb5b-4ea8-977d-71cf86d84816",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Jump",
                     "type": "Button",
                     "id": "88621a26-5ba3-4a2f-a147-a1b462fe1733",
@@ -54,6 +45,15 @@
                     "name": "RangedAttack",
                     "type": "Button",
                     "id": "246a11e1-a63f-4a33-a367-1b190e1a27b5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "64ea6a87-d685-4cde-be9b-8ae24fc26889",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -283,17 +283,6 @@
                 },
                 {
                     "name": "",
-                    "id": "986eb240-b70c-49ec-8242-07cd5174c936",
-                    "path": "<Keyboard>/leftShift",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Run",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "7b018ac3-3b29-415a-885e-4c84505fe9a9",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -311,6 +300,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "RangedAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "139768e5-a72c-40c7-b3ca-1f4854d20b02",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3476b176-88e4-460a-932d-34243f295b72",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Run",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

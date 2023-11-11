@@ -18,6 +18,8 @@ namespace Lesson_3
         Vector2 camMoveSinceStart => (Vector2)cam.transform.position - startingPosition;
 
         float zDistanceFromTarget => transform.position.z - followTarget.transform.position.z;
+
+        // far와 near를 나누어두면 카메라 설정에 따라 보이게 또는 안보이게 할 수 있다.
         float clippingPlane => (cam.transform.position.z + (zDistanceFromTarget) > 0 ? cam.farClipPlane : cam.nearClipPlane);
         float parallaxFactor => Mathf.Abs(zDistanceFromTarget) / clippingPlane;
 
