@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class Damageable : MonoBehaviour
 {
     public UnityEvent<Vector2> damageableHit;
+    public UnityEvent<int, int> healthChanged;
 
     public bool LockVelocity
     {
@@ -34,6 +35,7 @@ public class Damageable : MonoBehaviour
         set
         {
             _health = value;
+            healthChanged?.Invoke(_health, MaxHealth);
             if (_health <= 0)
             {
                 IsAlive = false;
@@ -61,33 +63,38 @@ public class Damageable : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void GetHit(int attackDamage)
+    public bool GetHit(int attackDamage)
     {
         if (IsAlive)
         {
             Health -= attackDamage;
 
             animator.SetTrigger("Hit");
-            Debug.Log(Health);
+            Debug.Log("Health" + Health);
+            return true;
         }
         else
         {
             Debug.Log("Is Death");
+            return false;
         }
     }
 
-    public void GetHit(int attackDamage, Vector2 knockback)
+    public bool GetHit(int attackDamage, Vector2 knockback)
     {
         if (IsAlive)
         {
             Health -= attackDamage;
 
             animator.SetTrigger("Hit");
+            Debug.Log("Health" + Health);
 
             LockVelocity = true;
-
+            CharectorEvents.characterDamaged?.Invoke(this.gameObject, attackDamage);
             damageableHit?.Invoke(knockback);
+            return true;
         }
+        return false;
     }
 
     public bool Heal(int healthRestore)
@@ -98,6 +105,7 @@ public class Damageable : MonoBehaviour
             int actualHeal = Mathf.Min(maxHeal, healthRestore);
 
             Health += actualHeal;
+            CharectorEvents.characterHealed?.Invoke(this.gameObject, healthRestore);
             Debug.Log("Player Heal " + Health);
             return true;
         }

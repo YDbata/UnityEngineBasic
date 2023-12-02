@@ -129,6 +129,15 @@ public class PlayerController : MonoBehaviour
         damageable = GetComponent<Damageable>();
     }
 
+    // 화살
+    public void OnRangedAttack(InputAction.CallbackContext context)
+    {
+        if (context.started && touchingDirections.IsGrounded)
+        {
+            animator.SetTrigger(AnimationStrings.RangedAttack);
+        }
+    }
+
     // 고정 프레임마다 일어나는 update
     private void FixedUpdate()
     {
@@ -202,4 +211,7 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
+
+
+    
 }

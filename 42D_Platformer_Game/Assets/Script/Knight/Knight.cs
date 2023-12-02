@@ -18,7 +18,10 @@ public class Knight : MonoBehaviour
     //public DetectionZone attackZone;
     //public DetectionZone cliffDetectionZone;
 
-    public float walkSpeed = 3.0f;
+    //public float walkSpeed = 3.0f;
+    public float maxSpeed = 3.0f;
+    public float walkStopRate = 0.6f;
+    public float walkAcceleration = 30f;
     [SerializeField] private bool _hasTarget = false;
     [SerializeField] private DetectionZone attackZone;
 
@@ -26,12 +29,12 @@ public class Knight : MonoBehaviour
     CapsuleCollider2D capsuleCollider;
     TouchingDirections touchingDirections;
     Animator animator;
-    Damageable damageable;
+    Damageable damageable; 
 
     private WalkableDirection walkDirection;
     private Vector2 walkDirectionVector = Vector2.right;
 
-    public float AttackCoolTime
+    public float AttackCoolTime   
     {
         get { return animator.GetFloat(AnimationStrings.AttackCoolDown); }
         set { animator.SetFloat(AnimationStrings.AttackCoolDown, Mathf.Max(value, 0)); }
@@ -103,13 +106,24 @@ public class Knight : MonoBehaviour
         }
         if (!damageable.LockVelocity)
         {
-            if (CanMove)
+            // 가감속 효과는 보통 땅에 있을때 넣기 때문에
+            if (CanMove && touchingDirections.IsGrounded)
             {
                 rb.velocity =
-                    new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+                    new Vector2
+                    {
+                        x = Mathf.Clamp(rb.velocity.x + (walkAcceleration * walkDirectionVector.x * Time.fixedDeltaTime), -maxSpeed, maxSpeed),
+                        y = rb.velocity.y
+                    };
+                Debug.Log($"DeltaTime{(Time.fixedDeltaTime)}, {walkAcceleration*walkDirectionVector.x*Time.fixedDeltaTime}, {walkAcceleration}");
+                //(walkSpeed * walkDirectionVector.x, rb.velocity.y);
             }
             else
-                rb.velocity = new Vector2(0*walkDirectionVector.x, rb.velocity.y);
+                rb.velocity = new Vector2
+                {
+                    x = Mathf.Clamp(rb.velocity.x, 0, walkStopRate),
+                    y = rb.velocity.y
+                };//(0*walkDirectionVector.x, rb.velocity.y);
         }
     }
 
