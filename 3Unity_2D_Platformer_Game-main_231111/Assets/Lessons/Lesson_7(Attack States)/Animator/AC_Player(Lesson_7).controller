@@ -922,23 +922,23 @@ AnimatorStateMachine:
     m_Position: {x: 330, y: -30, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 6386769901195444499}
-    m_Position: {x: 50, y: 260, z: 0}
+    m_Position: {x: 330, y: 240, z: 0}
   m_AnyStateTransitions:
   - {fileID: -1834993217998276154}
   - {fileID: -462441658618314284}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 6386769901195444499}
-    second:
-    - {fileID: -7501703674271116090}
-  - first: {fileID: 7624117645795988064}
-    second:
-    - {fileID: 1066058605931071025}
   - first: {fileID: 7879974412943816014}
     second:
     - {fileID: -2749041726666359510}
     - {fileID: -5638585522069540662}
     - {fileID: 4454580779965006719}
+  - first: {fileID: 7624117645795988064}
+    second:
+    - {fileID: 1066058605931071025}
+  - first: {fileID: 6386769901195444499}
+    second:
+    - {fileID: -7501703674271116090}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 590, y: 110, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}

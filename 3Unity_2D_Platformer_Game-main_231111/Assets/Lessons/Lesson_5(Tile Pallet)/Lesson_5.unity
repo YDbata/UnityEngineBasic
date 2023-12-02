@@ -143,7 +143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &86926232
 Animator:
   serializedVersion: 5
@@ -255,25 +255,21 @@ MonoBehaviour:
     m_ActionId: 774dbc36-d87d-4096-bc3b-05a795b5b9ea
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 86926234}
-        m_TargetAssemblyTypeName: Lesson_4.PlayerController, Assembly-CSharp
-        m_MethodName: OnRun
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: fbdb428a-fb5b-4ea8-977d-71cf86d84816
-    m_ActionName: Player/Run[/Keyboard/leftShift]
-  - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 88621a26-5ba3-4a2f-a147-a1b462fe1733
     m_ActionName: Player/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 246a11e1-a63f-4a33-a367-1b190e1a27b5
+    m_ActionName: Player/RangedAttack[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 64ea6a87-d685-4cde-be9b-8ae24fc26889
+    m_ActionName: Player/Run[/Keyboard/leftShift,/Keyboard/rightShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c0fa4a2c-c172-4312-839f-069f2ffc2c54
+    m_ActionName: UI/Escape[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -754,7 +750,7 @@ Camera:
   far clip plane: 5000
   field of view: 70
   orthographic: 0
-  orthographic size: 0.9
+  orthographic size: 1.025
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
