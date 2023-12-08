@@ -115,7 +115,7 @@ public class Knight : MonoBehaviour
                         x = Mathf.Clamp(rb.velocity.x + (walkAcceleration * walkDirectionVector.x * Time.fixedDeltaTime), -maxSpeed, maxSpeed),
                         y = rb.velocity.y
                     };
-                Debug.Log($"DeltaTime{(Time.fixedDeltaTime)}, {walkAcceleration*walkDirectionVector.x*Time.fixedDeltaTime}, {walkAcceleration}");
+                //Debug.Log($"DeltaTime{(Time.fixedDeltaTime)}, {walkAcceleration*walkDirectionVector.x*Time.fixedDeltaTime}, {walkAcceleration}");
                 //(walkSpeed * walkDirectionVector.x, rb.velocity.y);
             }
             else

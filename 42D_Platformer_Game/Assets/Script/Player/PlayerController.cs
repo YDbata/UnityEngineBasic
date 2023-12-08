@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumplmpulse = 10;
     [SerializeField] private float airWalkSpeed = 5;
     [SerializeField] private float airRunSpeed = 5;
+    public string currentMapName;
 
 
 
@@ -121,6 +122,9 @@ public class PlayerController : MonoBehaviour
     // GameObject가 활성화 될때 실행되는 함수
     private void Awake()
     {
+        // 새로운 씬 로딩시 객체 파괴 금지
+        DontDestroyOnLoad(this.gameObject);
+
         // Awake함수에서 Rigidbody2D 컴포넌트를 가져온다
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
