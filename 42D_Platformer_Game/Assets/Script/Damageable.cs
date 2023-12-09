@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class Damageable : MonoBehaviour
 {
     public UnityEvent<Vector2> damageableHit;
+    public UnityEvent damageableDeath;
     public UnityEvent<int, int> healthChanged;
 
     public bool LockVelocity
@@ -38,6 +39,7 @@ public class Damageable : MonoBehaviour
             healthChanged?.Invoke(_health, MaxHealth);
             if (_health <= 0)
             {
+                damageableDeath?.Invoke();
                 IsAlive = false;
             }
         }

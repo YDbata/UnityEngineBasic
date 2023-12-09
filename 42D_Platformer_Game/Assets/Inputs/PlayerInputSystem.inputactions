@@ -268,7 +268,7 @@
             "id": "928fc968-781f-4455-8285-1d3a2eba015b",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Escape",
                     "type": "Button",
                     "id": "dbdf5e16-6d9c-4e59-9bda-017e3a9f236a",
                     "expectedControlType": "Button",
@@ -281,11 +281,11 @@
                 {
                     "name": "",
                     "id": "4c48b8be-8023-4faf-8bc2-a62705835a19",
-                    "path": "",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "New action",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Escape",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

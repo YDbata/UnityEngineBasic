@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 
 public class UIManager : MonoBehaviour
@@ -16,6 +18,7 @@ public class UIManager : MonoBehaviour
     {
         // 아래함수는 성능에 이슈가 있어서 Awake외에 많이 쓰지 않는 것이 좋다.
         gameCanvas = FindObjectOfType<Canvas>();
+        //WebGLInput.captureAllKeyboardInput = false;
     }
 
     private void OnEnable()
@@ -50,5 +53,25 @@ public class UIManager : MonoBehaviour
             .GetComponent<TMP_Text>();
 
         tmpText.text = damageRestored.ToString();
+    }
+
+    public void OnExitGame(InputAction.CallbackContext context)
+    {
+        // if(Application.platform)
+        
+        if (context.started)
+        {
+#if(UNITY_EDITOR || DEVELOPMENT_BUILD)
+            Debug.Log(this.name + ": " + this.GetType() + " : " +
+                System.Reflection.MethodBase.GetCurrentMethod().Name);
+#endif
+#if (UNITY_EDITOR)
+            UnityEditor.EditorApplication.isPlaying = false;
+#elif (UNITY_STANDALONE)
+    Application.Quit();
+#elif (UNITY_WEBGL)
+    SceneManager.LoadScene("QuitScene");
+#endif
+        }
     }
 }

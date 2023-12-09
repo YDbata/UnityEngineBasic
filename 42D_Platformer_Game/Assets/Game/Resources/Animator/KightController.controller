@@ -83,6 +83,7 @@ AnimatorState:
   - {fileID: 6312960295292598526}
   m_StateMachineBehaviours:
   - {fileID: -799072700236376427}
+  - {fileID: 4073370819019000740}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -153,7 +154,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: KightContoller
+  m_Name: KightController
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: IsGrounded
@@ -332,6 +333,26 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &4073370819019000740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d515665bdb38d804895b77de038af500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: 096ecb13a6590f743ac81f9d18471abf, type: 3}
+  volume: 1
+  playOnEnter: 1
+  playOnExit: 0
+  playAfterDelay: 0
+  playDeley: 0
+  timeSinceEntered: 0
+  hasDelayedSoundPlayed: 0
 --- !u!1101 &4082095936245053830
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

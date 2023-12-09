@@ -44,6 +44,7 @@ public class Knight : MonoBehaviour
     public bool HasTarget
     {
         get { return _hasTarget; }
+
         private set
         {
             _hasTarget = value;
