@@ -4,20 +4,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Mover : MonoBehaviour
+public class Mover : MonoBehaviour, IAction
 {
     [SerializeField] private Transform target;
     [SerializeField] private float maxMoveSpeed = 6f;
     [SerializeField] private float maxNavPathLength = 40;
 
     NavMeshAgent navMeshAgent;
-    Rigidbody rb;
+    CharacterController _controller;
+    Animator _animator;
+    ActionScheduler _actionScheduler;
 
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody>();
         navMeshAgent = GetComponent<NavMeshAgent>();
+        _controller = GetComponent<CharacterController>();
+        _animator = GetComponentInChildren<Animator>();
+        _actionScheduler = GetComponent<ActionScheduler>();
+    }
+
+    private void Update()
+    {
+        UpdateAnimator();
+    }
+
+    public void StartMoveAction(Vector3 destination, float speedFraction)
+    {
+        _actionScheduler.StartAction(this);
+        MoveTo(destination, speedFraction);
     }
 
     public bool CanMoveTo(Vector3 destination)
@@ -53,4 +68,18 @@ public class Mover : MonoBehaviour
         navMeshAgent.isStopped = false;
     }
 
+
+    private void UpdateAnimator()
+    {
+        Vector3 velocity = navMeshAgent.velocity;
+        // InverseTranseformDirection : 월드좌표에서 캐릭터의 방향으로 변환한다. 추가 조사 필요
+        Vector3 localVelocity = transform.InverseTransformDirection(velocity);
+        float speed = localVelocity.z;
+        _animator.SetFloat("Speed", speed);
+    }
+
+    public void Cancle()
+    {
+        navMeshAgent.isStopped = true;
+    }
 }
