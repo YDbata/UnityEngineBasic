@@ -29,10 +29,10 @@ MonoBehaviour:
       - 50
     - stats: 2
       levels:
-      - 1000
-      - 2000
-      - 3000
-      - 4000
+      - 50
+      - 150
+      - 300
+      - 450
       - 5000
   - characterClass: 1
     stats:
@@ -48,3 +48,9 @@ MonoBehaviour:
       - 20
       - 30
       - 40
+    - stats: 1
+      levels:
+      - 60
+      - 60
+      - 70
+      - 80

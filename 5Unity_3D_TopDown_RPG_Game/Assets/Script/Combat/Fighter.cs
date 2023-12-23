@@ -26,6 +26,7 @@ public class Fighter : MonoBehaviour, IAction
     {
         
         if (!target) return;
+        if (target.IsDead()) return;
 
         if (!GetIsInRange(target.transform))
         {
@@ -40,7 +41,7 @@ public class Fighter : MonoBehaviour, IAction
 
     private void AttackBehaviour()
     {
-        timeSinceLastAttack += Time.deltaTime;
+        // timeSinceLastAttack += Time.deltaTime;
         transform.LookAt(target.transform);
         if(timeSinceLastAttack > timeBetweenAttacks)
         {
@@ -62,11 +63,19 @@ public class Fighter : MonoBehaviour, IAction
         _animator.SetTrigger("StopAttack");
     }
 
+    /// <summary>
+    /// 공격할 수 있는 대상의 경우 True반환
+    /// </summary>
+    /// <param name="combatTarget"></param>
+    /// <returns></returns>
     public bool CanAttack(GameObject combatTarget)
     {
         if(combatTarget == null) return false;
         if (!mover.CanMoveTo(combatTarget.transform.position)) return false;
-        return true;
+
+        // 죽었을때 적이 아닌것을 제어
+        Health targetHealth = combatTarget.GetComponent<Health>();
+        return targetHealth != null && !targetHealth.IsDead();
     }
 
     internal void Attack(GameObject gameObject)

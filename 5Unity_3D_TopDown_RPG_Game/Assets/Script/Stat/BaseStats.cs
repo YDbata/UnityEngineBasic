@@ -11,10 +11,11 @@ public class BaseStats : MonoBehaviour
     [SerializeField] Progression progression = null;
 
     LazyValue<int> currentLevel;
-
+    Experience experience;
     private void Awake()
     {
         currentLevel = new LazyValue<int>(CalculateLevel);
+        experience = GetComponent<Experience>();
     }
    
 
@@ -39,8 +40,47 @@ public class BaseStats : MonoBehaviour
         return currentLevel.value;
     }
 
+    private void OnEnable()
+    {
+        if(experience != null)
+        {
+            experience.onExperienceGained += UpdateLevel;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (experience != null)
+        {
+            experience.onExperienceGained -= UpdateLevel;
+        }
+    }
+
+    private void UpdateLevel()
+    {
+        int newLevel = CalculateLevel();
+        if(newLevel > currentLevel.value)
+        {
+            currentLevel.value = newLevel;
+            Debug.Log(currentLevel.value);
+        }
+    }
+
     private int CalculateLevel()
     {
-        return startingLevel;
+        if(experience == null) { return startingLevel; }
+        float currentEXP = experience.GetPoints();
+
+
+        int penultimateLevel = progression.GetLevels(Stats.ExperienceToLevelUp, characterClass);
+
+        for(int level = 1;level <= penultimateLevel;level++)
+        {
+            float EXPToLevelUp = progression.GetStat(Stats.ExperienceToLevelUp,
+                characterClass, level);
+            if(EXPToLevelUp > currentEXP) return level;
+
+        }
+        return penultimateLevel + 1;
     }
 }

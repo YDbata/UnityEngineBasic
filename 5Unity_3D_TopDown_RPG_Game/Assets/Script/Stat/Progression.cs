@@ -36,6 +36,8 @@ public class Progression : ScriptableObject
         return levels[level - 1];
     }
 
+
+
     /// <summary>
     /// lookupTable을 빌드하고 계산된 정보를 저장
     /// </summary>
@@ -80,5 +82,22 @@ public class Progression : ScriptableObject
     {
         public Stats stats;     // 스탯
         public float[] levels;  // 레벨별 스탯 값 배열
+    }
+
+    /// <summary>
+    /// 특정 스탯의 특정 직업 클래스의 최대레벨을 반환
+    /// </summary>
+    /// <param name="stats"></param>
+    /// <param name="characterClass"></param>
+    /// <returns></returns>
+    internal int GetLevels(Stats stats, CharacterClass characterClass)
+    {
+        BuildLookup();
+
+        // 미리생성된 스탯값 가져오기
+        float[] levels = lookupTable[characterClass][stats];
+
+        // 스탯의 배열의 길이는 최대레벨이다.
+        return levels.Length;
     }
 }
