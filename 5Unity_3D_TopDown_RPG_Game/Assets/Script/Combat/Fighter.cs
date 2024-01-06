@@ -6,13 +6,20 @@ using UnityEngine;
 public class Fighter : MonoBehaviour, IAction
 {
     [SerializeField] private float timeBetweenAttacks = 1;
+    [SerializeField] private Transform rightHandTransform = null;
+    [SerializeField] private Transform leftHandTransform = null;
+    [SerializeField] private WeaponConfig defaultWeapon = null;
 
     private Mover mover;
     private ActionScheduler _actionScheduler;
     private Animator _animator;
+
     private Health target = null;
 
     private float timeSinceLastAttack = 0;
+
+    WeaponConfig currentWeaponConfig;
+    LazyValue<Weapon> currentWeapon;
 
     private void Awake()
     {

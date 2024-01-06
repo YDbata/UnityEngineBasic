@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Health : MonoBehaviour
+public class Health : MonoBehaviour, ISaveable
 {
     [SerializeField] TakeDamageEvent takeDamage;
     [SerializeField] UnityEvent onDie;
@@ -68,5 +68,16 @@ public class Health : MonoBehaviour
         isDead = true;
         GameObjectExtention.GetcomponentAroundOrAdd<Animator>(this.gameObject).SetTrigger("Death");
         actionScheduler?.CancleCurrentAction();
+    }
+
+    public object CaptureState()
+    {
+        return healthPoints.value;
+    }
+
+    public void RestoreState(object state)
+    {
+        healthPoints.value = (float)state;
+        Debug.Log("RestoreState Health:"+healthPoints.value);
     }
 }
