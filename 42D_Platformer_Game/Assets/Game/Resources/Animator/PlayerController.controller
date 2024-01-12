@@ -763,79 +763,79 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsRunning
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsGrounded
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Jump
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: yVelocity
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Attack
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: CanMove
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsOnWall
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsOnCeiling
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Hit
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: LockVelocity
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsAlive
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: RangedAttack
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -1316,23 +1316,23 @@ AnimatorStateMachine:
   - {fileID: 946648436409666692}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 5108297183944399348}
-    second:
-    - {fileID: -5930878443886362230}
-    - {fileID: 1257348942009089526}
-  - first: {fileID: -6063158578086230774}
-    second:
-    - {fileID: 4742462770819623975}
-  - first: {fileID: 1142727264219388698}
-    second:
-    - {fileID: 7411436446982444896}
-    - {fileID: -7544371285877075979}
   - first: {fileID: 6710113256134259277}
     second:
     - {fileID: 2792269451453658554}
     - {fileID: 1005199214082922407}
     - {fileID: 3571307332766385369}
     - {fileID: -5835186129769310493}
+  - first: {fileID: 1142727264219388698}
+    second:
+    - {fileID: 7411436446982444896}
+    - {fileID: -7544371285877075979}
+  - first: {fileID: -6063158578086230774}
+    second:
+    - {fileID: 4742462770819623975}
+  - first: {fileID: 5108297183944399348}
+    second:
+    - {fileID: -5930878443886362230}
+    - {fileID: 1257348942009089526}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 640, y: 210, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
