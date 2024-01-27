@@ -59,6 +59,33 @@ public class Inventory : MonoBehaviour
     }
 
     /// <summary>
+    /// 이미 있는 슬롯의 아이템을 추가한다.
+    /// 이 이아템의 유형이 이미 있는 경우 스택추가한다.
+    /// </summary>
+    /// <param name="index"></param>
+    /// <param name="item"></param>
+    /// <param name="number"></param>
+    public bool AddItemToSlot(int index, InventoryItem item, int number)
+    {
+        
+        if (slots[index].item != null) return AddToFirstEmptySlot(item, number);
+
+        // 
+        /*        var i = FindStack(item);
+                if (i >= 0)
+                {
+                    index = i;
+                }*/
+        // 해당인덱스에 아이템 추가
+        slots[index].item = item;
+        slots[index].number += number;
+        //인벤토리 갱신
+        inventoryUpdated?.Invoke();
+
+        return true;
+    }
+
+    /// <summary>
     /// 주어진 item을 수용할 수 있는 Slot 찾기
     /// </summary>
     /// <param name="item"></param>
@@ -124,4 +151,6 @@ public class Inventory : MonoBehaviour
     }
 
     public int GetSize() => slots.Length;
+
+
 }
