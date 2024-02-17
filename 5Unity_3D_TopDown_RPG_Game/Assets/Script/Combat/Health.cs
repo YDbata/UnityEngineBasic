@@ -16,8 +16,8 @@ public class Health : MonoBehaviour, ISaveable
     }
 
     ActionScheduler actionScheduler;
-
     LazyValue<float> healthPoints;
+
     bool isDead = false;
 
     public bool IsDead() => isDead; 

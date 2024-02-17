@@ -31,7 +31,8 @@ public class Fighter : MonoBehaviour, IAction
 
     void Update()
     {
-        
+        timeSinceLastAttack += Time.deltaTime;
+
         if (!target) return;
         if (target.IsDead()) return;
 
@@ -66,8 +67,8 @@ public class Fighter : MonoBehaviour, IAction
 
     private void StopAttack()
     {
-        _animator.ResetTrigger("Attack");
         _animator.SetTrigger("StopAttack");
+        _animator.ResetTrigger("Attack");
     }
 
     /// <summary>
