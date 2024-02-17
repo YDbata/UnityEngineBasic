@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class BaseStats : MonoBehaviour
@@ -35,7 +36,7 @@ public class BaseStats : MonoBehaviour
         return progression.GetStat(stats, characterClass, GetLevel());
     }
 
-    private int GetLevel()
+    public int GetLevel()
     {
         return currentLevel.value;
     }

@@ -34,6 +34,7 @@ public class Fader : MonoBehaviour
 
     public Coroutine Fade(float target, float time)
     {
+        Debug.Log("currentActiveFade"+ currentActiveFade);
         if (currentActiveFade != null)
         {
             StopCoroutine(currentActiveFade);
@@ -45,7 +46,7 @@ public class Fader : MonoBehaviour
 
     private IEnumerator FadeRoutine(float target, float time)
     {
-        while(!Mathf.Approximately(canvasGroup.alpha, 0))
+        while(!Mathf.Approximately(canvasGroup.alpha, target))
         {
             canvasGroup.alpha = Mathf.MoveTowards(canvasGroup.alpha, target, Time.unscaledDeltaTime/time);
             // 매프레임마다 체크 가능

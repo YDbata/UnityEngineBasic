@@ -11,6 +11,11 @@ public class AnimationEventListener : MonoBehaviour
         fighter = GameObjectExtention.GetcomponentAroundOrAdd<Fighter>(this.gameObject);
     }
 
+    public void Shoot()
+    {
+        fighter.Hit();
+    }
+
     public void Hit()
     {
         fighter.Hit();
