@@ -237,76 +237,23 @@ AnimatorStateMachine:
   - {fileID: 2108413185749175716}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   - first: {fileID: -1042798980736143148}
     second:
     - {fileID: 1347458116148863181}
     - {fileID: 8517311707066365765}
     - {fileID: -9157217832213431575}
     - {fileID: -8434519335374370021}
-=======
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   - first: {fileID: 984850385392914628}
     second:
     - {fileID: 3858345244667238997}
     - {fileID: 6643476982407737387}
     - {fileID: 6986702260086008113}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   - first: {fileID: 2270103554622866461}
     second:
     - {fileID: 4105337107427717054}
     - {fileID: -8389861930537834097}
     - {fileID: 341510716591201099}
     - {fileID: -6027136018345152965}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - first: {fileID: 984850385392914628}
-    second:
-    - {fileID: 3858345244667238997}
-    - {fileID: 6643476982407737387}
-    - {fileID: 6986702260086008113}
-=======
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-  - first: {fileID: -1042798980736143148}
-    second:
-    - {fileID: 1347458116148863181}
-    - {fileID: 8517311707066365765}
-    - {fileID: -9157217832213431575}
-    - {fileID: -8434519335374370021}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 810, y: 210, z: 0}
   m_EntryPosition: {x: 120, y: -130, z: 0}
@@ -405,23 +352,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -2891760035810424524}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Position: {x: 380, y: 0, z: 0}
-=======
     m_Position: {x: 380, y: 10, z: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Position: {x: 380, y: 10, z: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Position: {x: 380, y: 10, z: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Position: {x: 380, y: 10, z: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -471,155 +402,43 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   - m_Name: Jump
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   - m_Name: Dead
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   - m_Name: Reloading
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   - m_Name: Aiming
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   - m_Name: Fire
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   - m_Name: Idle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Controller: {fileID: 0}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -664,23 +483,7 @@ BlendTree:
   m_Name: Locomotion
   m_Childs:
   - serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Motion: {fileID: 7400000, guid: e6d285b0776dc524e80c16bf0a34cb6e, type: 3}
-=======
-    m_Motion: {fileID: 7400000, guid: f4b742668f2199043a811bf9b15c1317, type: 3}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Motion: {fileID: 7400000, guid: f4b742668f2199043a811bf9b15c1317, type: 3}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Motion: {fileID: 7400000, guid: f4b742668f2199043a811bf9b15c1317, type: 3}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
-    m_Motion: {fileID: 7400000, guid: f4b742668f2199043a811bf9b15c1317, type: 3}
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+    m_Motion: {fileID: 1827226128182048838, guid: e6d285b0776dc524e80c16bf0a34cb6e, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
