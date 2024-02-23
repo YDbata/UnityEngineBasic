@@ -3,6 +3,7 @@ guid: 5cf9ec5e9e20ac244a22718760e4c201
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable:
@@ -584,6 +585,8 @@ ModelImporter:
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 timeCreated: 1519284999
 licenseType: Store
 ModelImporter:
@@ -784,6 +787,9 @@ ModelImporter:
     importMaterials: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -800,7 +806,10 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeConstantScaleCurves: 0
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -818,7 +827,10 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     importConstraints: 0
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -842,9 +854,12 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 0
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -855,6 +870,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -877,6 +893,8 @@ ModelImporter:
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -886,6 +904,9 @@ ModelImporter:
     preserveHierarchy: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -895,6 +916,7 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -916,11 +938,16 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,12 +963,17 @@ ModelImporter:
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -1586,7 +1618,12 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       rotation: {x: -0.0000000018626454, y: 0.000000004190951, z: 0.000000029802319, w: 1}
+=======
+      rotation: {x: -0.0000000018626454, y: 0.000000004190951, z: 0.000000029802319,
+        w: 1}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
       rotation: {x: -0.0000000018626454, y: 0.000000004190951, z: 0.000000029802319,
         w: 1}
@@ -1641,7 +1678,12 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       rotation: {x: 0.0000000055879354, y: -0.0000000037252903, z: -0.000000014901161, w: 1}
+=======
+      rotation: {x: 0.0000000055879354, y: -0.0000000037252903, z: -0.000000014901161,
+        w: 1}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
       rotation: {x: 0.0000000055879354, y: -0.0000000037252903, z: -0.000000014901161,
         w: 1}
@@ -1810,8 +1852,13 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     globalScale: 1
     rootMotionBoneName: 
+=======
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1831,6 +1878,7 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
@@ -1838,6 +1886,10 @@ ModelImporter:
   addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 1
+=======
+  animationType: 3
+  humanoidOversampling: 1
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
   animationType: 3
   humanoidOversampling: 1

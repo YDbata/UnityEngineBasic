@@ -240,6 +240,7 @@ AnimatorStateMachine:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - first: {fileID: -1042798980736143148}
     second:
     - {fileID: 1347458116148863181}
@@ -251,6 +252,8 @@ AnimatorStateMachine:
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
   - first: {fileID: 984850385392914628}
     second:
     - {fileID: 3858345244667238997}
@@ -258,6 +261,9 @@ AnimatorStateMachine:
     - {fileID: 6986702260086008113}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -272,12 +278,15 @@ AnimatorStateMachine:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - first: {fileID: 984850385392914628}
     second:
     - {fileID: 3858345244667238997}
     - {fileID: 6643476982407737387}
     - {fileID: 6986702260086008113}
 =======
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -290,6 +299,9 @@ AnimatorStateMachine:
     - {fileID: -8434519335374370021}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -396,7 +408,11 @@ AnimatorStateMachine:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Position: {x: 380, y: 0, z: 0}
+=======
+    m_Position: {x: 380, y: 10, z: 0}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     m_Position: {x: 380, y: 10, z: 0}
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -458,7 +474,11 @@ AnimatorController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     m_Controller: {fileID: 0}
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -476,7 +496,11 @@ AnimatorController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     m_Controller: {fileID: 0}
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -494,7 +518,11 @@ AnimatorController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     m_Controller: {fileID: 0}
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -512,7 +540,11 @@ AnimatorController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     m_Controller: {fileID: 0}
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -530,7 +562,11 @@ AnimatorController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     m_Controller: {fileID: 0}
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -548,7 +584,11 @@ AnimatorController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     m_Controller: {fileID: 0}
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -566,7 +606,11 @@ AnimatorController:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     m_Controller: {fileID: 0}
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -623,7 +667,11 @@ BlendTree:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Motion: {fileID: 7400000, guid: e6d285b0776dc524e80c16bf0a34cb6e, type: 3}
+=======
+    m_Motion: {fileID: 7400000, guid: f4b742668f2199043a811bf9b15c1317, type: 3}
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     m_Motion: {fileID: 7400000, guid: f4b742668f2199043a811bf9b15c1317, type: 3}
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
