@@ -374,6 +374,7 @@ PlayerSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_BuildTarget: iPhone
     m_Icons:
     - m_Textures: []
@@ -471,6 +472,8 @@ PlayerSettings:
       m_Height: 1024
       m_Kind: 4
       m_SubKind: App Store
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======

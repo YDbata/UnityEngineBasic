@@ -2,7 +2,11 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: e6d285b0776dc524e80c16bf0a34cb6e
+=======
+guid: f4b742668f2199043a811bf9b15c1317
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 guid: f4b742668f2199043a811bf9b15c1317
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -573,7 +577,11 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     animationCompression: 3
+=======
+    animationCompression: 0
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     animationCompression: 0
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -621,7 +629,11 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       additiveReferencePoseFrame: 0.9
+=======
+      additiveReferencePoseFrame: 1
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
       additiveReferencePoseFrame: 1
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -681,6 +693,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1384,6 +1397,9 @@ ModelImporter:
 =======
     skeleton: []
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
+    skeleton: []
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -1397,7 +1413,11 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     hasExtraRoot: 1
+=======
+    hasExtraRoot: 0
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     hasExtraRoot: 0
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -1415,7 +1435,11 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   avatarSetup: 0
+=======
+  avatarSetup: 1
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
   avatarSetup: 1
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63

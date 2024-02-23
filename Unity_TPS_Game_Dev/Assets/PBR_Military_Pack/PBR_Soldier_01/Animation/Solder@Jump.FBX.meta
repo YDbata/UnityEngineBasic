@@ -3,6 +3,7 @@ guid: a38660912004a12489b9643a0c639c99
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 timeCreated: 1520335965
 licenseType: Store
 ModelImporter:
@@ -190,6 +191,8 @@ ModelImporter:
   materials:
     importMaterials: 1
 =======
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -736,6 +739,9 @@ ModelImporter:
     materialImportMode: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -752,6 +758,10 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    removeConstantScaleCurves: 0
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     removeConstantScaleCurves: 0
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -772,6 +782,10 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    importConstraints: 0
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     importConstraints: 0
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -791,8 +805,11 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     clipAnimations: []
 =======
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -829,6 +846,9 @@ ModelImporter:
       additiveReferencePoseFrame: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -843,6 +863,12 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
@@ -865,6 +891,7 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -873,6 +900,8 @@ ModelImporter:
     weldVertices: 1
     preserveHierarchy: 0
 =======
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -893,6 +922,9 @@ ModelImporter:
     meshOptimizationFlags: -1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -905,9 +937,12 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     secondaryUVPackMargin: 4
     useFileScale: 1
 =======
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -920,6 +955,9 @@ ModelImporter:
     strictVertexDataChecks: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -933,11 +971,14 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
 =======
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -951,6 +992,9 @@ ModelImporter:
     serializedVersion: 3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
@@ -968,8 +1012,13 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+    globalScale: 1
+    rootMotionBoneName: 
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
     globalScale: 1
     rootMotionBoneName: 
@@ -989,9 +1038,12 @@ ModelImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   animationType: 2
   humanoidOversampling: 1
 =======
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
@@ -1005,6 +1057,9 @@ ModelImporter:
   remapMaterialsIfMaterialImportModeIsNone: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63

@@ -81,6 +81,7 @@ public class Rifle : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             StandEnemy standEnemy = hitinfo.collider.gameObject.GetAroundComponent<StandEnemy>();
             Turrat turrat = hitinfo.collider.gameObject.GetAroundComponent<Turrat>();
             /*
@@ -121,6 +122,8 @@ public class Rifle : MonoBehaviour
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
             if(damageable)
             {
                 damageable.HitDamage(damage);
@@ -138,6 +141,9 @@ public class Rifle : MonoBehaviour
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+=======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
 =======
 >>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
