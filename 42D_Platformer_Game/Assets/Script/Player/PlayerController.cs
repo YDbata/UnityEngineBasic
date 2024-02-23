@@ -205,7 +205,7 @@ public class PlayerController : MonoBehaviour
     // 공격입력 처리
     public void OnAttack(InputAction.CallbackContext context)
     {
-        if(context.started && touchingDirections.IsGrounded)
+        if(context.started)
         {
             animator.SetTrigger("Attack");
         }

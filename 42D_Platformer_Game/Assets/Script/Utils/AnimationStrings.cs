@@ -16,4 +16,8 @@ public class AnimationStrings
     public static string IsAlive = "IsAlive";
 
     public static string RangedAttack = "RangedAttack";
+
+
+
+    
 }

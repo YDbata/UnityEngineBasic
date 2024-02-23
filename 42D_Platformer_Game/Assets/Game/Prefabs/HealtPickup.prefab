@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 680127873135586244}
   - component: {fileID: 2229775421618500056}
   - component: {fileID: 8992615228365488041}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: HealtPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -136,7 +136,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthRestroe: 20
   spinrotationSpeed: {x: 0, y: 180, z: 0}
-  audioSource: {fileID: 8992615228365488041}
 --- !u!82 &8992615228365488041
 AudioSource:
   m_ObjectHideFlags: 0

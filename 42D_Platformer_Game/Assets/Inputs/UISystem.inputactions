@@ -1,0 +1,51 @@
+{
+    "name": "UISystem",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "8b179c02-29a8-483b-9dd3-cd4635928982",
+            "actions": [
+                {
+                    "name": "E",
+                    "type": "Button",
+                    "id": "e2faa5e4-e368-4ba8-b6ad-575c53f0d1c8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "62fa4380-0df8-415d-9858-9efddee98842",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyBoard&Mouse",
+                    "action": "E",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyBoard&Mouse",
+            "bindingGroup": "KeyBoard&Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

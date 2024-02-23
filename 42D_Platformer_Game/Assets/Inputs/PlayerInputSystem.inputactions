@@ -7,12 +7,12 @@
             "actions": [
                 {
                     "name": "Move",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "7399385d-338c-49d3-914b-8994ea38fc33",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Run",
@@ -219,39 +219,6 @@
                 },
                 {
                     "name": "",
-                    "id": "172ca197-1bb6-415f-b6e1-6e93b62c2806",
-                    "path": "<Touchscreen>/primaryTouch/tap",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Touch",
-                    "action": "Fire",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "fb02e97d-691e-4560-a98f-d52bf8287e70",
-                    "path": "<Joystick>/trigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Joystick",
-                    "action": "Fire",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c58aa572-aa66-4126-b2a4-f5997b5ddc9c",
-                    "path": "<XRController>/{PrimaryAction}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "XR",
-                    "action": "Fire",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "b743a30f-6025-4484-b7b7-03a752d52b88",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
@@ -268,7 +235,7 @@
             "id": "928fc968-781f-4455-8285-1d3a2eba015b",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Escape",
                     "type": "Button",
                     "id": "dbdf5e16-6d9c-4e59-9bda-017e3a9f236a",
                     "expectedControlType": "Button",
@@ -281,11 +248,11 @@
                 {
                     "name": "",
                     "id": "4c48b8be-8023-4faf-8bc2-a62705835a19",
-                    "path": "",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "New action",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Escape",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

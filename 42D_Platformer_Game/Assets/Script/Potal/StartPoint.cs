@@ -9,7 +9,7 @@ public class StartPoint : MonoBehaviour
     public string StartPointMapName;
 
     private PlayerController player;
-    private CameraController maincamera;
+    private CameraControll maincamera;
     private ParallaEffect paralla;
     GameObject Player;
 
@@ -17,7 +17,7 @@ public class StartPoint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        maincamera = FindObjectOfType<CameraController>();
+        maincamera = FindObjectOfType<CameraControll>();
         player = FindObjectOfType<PlayerController>();
         Player = GameObject.Find("Player");
         paralla.GetComponent<ParallaEffect>().cam = Camera.main;
