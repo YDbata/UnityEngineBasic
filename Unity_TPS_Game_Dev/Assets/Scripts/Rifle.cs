@@ -78,10 +78,6 @@ public class Rifle : MonoBehaviour
 
             Damageable damageable = hitinfo.collider.gameObject.GetAroundComponent<Damageable>();
             Enemy enemy = hitinfo.collider.gameObject.GetAroundComponent<Enemy>();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             StandEnemy standEnemy = hitinfo.collider.gameObject.GetAroundComponent<StandEnemy>();
             Turrat turrat = hitinfo.collider.gameObject.GetAroundComponent<Turrat>();
             /*
@@ -117,38 +113,8 @@ public class Rifle : MonoBehaviour
         Destroy(impact, 1.0f);
     }
 
-=======
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-            if(damageable)
-            {
-                damageable.HitDamage(damage);
-                GameObject impact = Instantiate(ImpactEffect, hitinfo.point, Quaternion.LookRotation(hitinfo.normal)); //   Quaternion.identity
-                Destroy(impact, 1.0f);
-            }
-            if(enemy)
-            {
-                enemy.HitDamage(damage);
-                GameObject impact = Instantiate(ImpactEffect, hitinfo.point, Quaternion.LookRotation(hitinfo.normal)); //   Quaternion.identity
-                Destroy(impact, 1.0f);
-            }
 
-        }
-    }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+
     IEnumerator Reload()
     {
         playerController.CanMove = false;

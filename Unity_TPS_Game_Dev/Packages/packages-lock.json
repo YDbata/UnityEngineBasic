@@ -92,10 +92,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     "com.unity.sysroot": {
       "version": "2.0.7",
       "depth": 1,
@@ -112,14 +108,7 @@
       },
       "url": "https://packages.unity.com"
     },
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
+
     "com.unity.test-framework": {
       "version": "1.1.33",
       "depth": 1,
@@ -162,10 +151,6 @@
       },
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     "com.unity.toolchain.win-x86_64-linux-x86_64": {
       "version": "2.0.6",
       "depth": 0,
@@ -176,14 +161,6 @@
       },
       "url": "https://packages.unity.com"
     },
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
-=======
->>>>>>> 1a9eb72d1b48c894d161a6295eea321cf4c86d63
     "com.unity.ugui": {
       "version": "1.0.0",
       "depth": 0,
